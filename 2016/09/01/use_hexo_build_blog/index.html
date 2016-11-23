@@ -99,17 +99,17 @@
 <meta name="description" content="一直以来都想有一个自己的博客，可以督促自己更好的管理自己的学习笔记以及规划自己的学习历程，也算是对自己提高一下要求-。-两天的博客搭建历程总结，分享出来给大家看看 :）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Hexo&Github Pages搭建自己的Blog">
-<meta property="og:url" content="ilyue.com/2016/09/01/use_hexo_build_blog/index.html">
+<meta property="og:url" content="liuyue.club/2016/09/01/use_hexo_build_blog/index.html">
 <meta property="og:site_name" content="LiuYue's Blog">
 <meta property="og:description" content="一直以来都想有一个自己的博客，可以督促自己更好的管理自己的学习笔记以及规划自己的学习历程，也算是对自己提高一下要求-。-两天的博客搭建历程总结，分享出来给大家看看 :）">
-<meta property="og:image" content="ilyue.com/images/how-to-build-a-blog/github_home_page.png">
-<meta property="og:image" content="ilyue.com/images/how-to-build-a-blog/create_repository.png">
-<meta property="og:image" content="ilyue.com/images/how-to-build-a-blog/github_add_ssh_key.png">
-<meta property="og:updated_time" content="2016-09-01T17:45:15.000Z">
+<meta property="og:image" content="liuyue.club/images/how-to-build-a-blog/github_home_page.png">
+<meta property="og:image" content="liuyue.club/images/how-to-build-a-blog/create_repository.png">
+<meta property="og:image" content="liuyue.club/images/how-to-build-a-blog/github_add_ssh_key.png">
+<meta property="og:updated_time" content="2016-11-23T06:11:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Hexo&Github Pages搭建自己的Blog">
 <meta name="twitter:description" content="一直以来都想有一个自己的博客，可以督促自己更好的管理自己的学习笔记以及规划自己的学习历程，也算是对自己提高一下要求-。-两天的博客搭建历程总结，分享出来给大家看看 :）">
-<meta name="twitter:image" content="ilyue.com/images/how-to-build-a-blog/github_home_page.png">
+<meta name="twitter:image" content="liuyue.club/images/how-to-build-a-blog/github_home_page.png">
 
 
 
@@ -130,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="ilyue.com/2016/09/01/use_hexo_build_blog/"/>
+  <link rel="canonical" href="liuyue.club/2016/09/01/use_hexo_build_blog/"/>
 
   <title> 使用Hexo&Github Pages搭建自己的Blog | LiuYue's Blog </title>
 </head>
@@ -398,7 +398,7 @@
 <h2 id="配置Hexo-1"><a href="#配置Hexo-1" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><p>初始化完成之后就可以开始根据自己的爱好配置自己的Hexo了，我使用的<a href="http://theme-next.iissnan.com/" title="NexT文档" target="_blank" rel="external">Next.Mist</a>作为Hexo的主题模板，你们可以根据个人喜好<a href="https://hexo.io/themes/" title="Hexo主题" target="_blank" rel="external">选择主题</a>。</p>
 <p>Hexo主配置文件是<code>_config.yml</code>，在之前创建的<code>blog</code>目录下，各配置的属性可参考<a href="https://hexo.io/zh-cn/docs/configuration.html" title="Hexo配置文件详解" target="_blank" rel="external">Hexo官方文档</a>，主要更改配置如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: LiuYue&apos;s Blog</div><div class="line">subtitle:</div><div class="line">description: 一个人的学习笔记</div><div class="line">author: 刘越</div><div class="line">language: zh-Hans</div><div class="line">timezone: Asia/ShangHai</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># URL</div><div class="line">url: ilyue.com # 如果使用github的域名可以改为：liuyue2656@github.io，根据自己的用户名进行更改</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># URL</div><div class="line">url: liuyue.club # 如果使用github的域名可以改为：liuyue2656@github.io，根据自己的用户名进行更改</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next  # 需要先下载NexT主题</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:liuyue2656/liuyue2656.github.io  # 请根据自己的用户名进行修改</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 <p>因为Hexo默认用的是<a href="http://hexo.io/hexo-theme-landscape" title="landscape主题示例" target="_blank" rel="external">landscape主题</a>，如果要使用<a href="http://theme-next.iissnan.com/" title="NexT文档" target="_blank" rel="external">NexT主题</a>的话需要自己下载；</p>
@@ -433,7 +433,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page &quot;tags&quot;  # 创建tags标签</div></pre></td></tr></table></figure>
 <p>创建完成后会在<code>blog/source</code>下生成一个目录<code>tags</code>，其中有一个<code>index.md</code>的文件，默认该文件和文章的表现形式一样，需要你自己进行编写，Hexo也支持集中类型的标签，如<code>tags</code>，需要你在文件中加入<code>type</code>属性：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: tags</div><div class="line">date: 2016-08-31 15:51:28</div><div class="line">type: &quot;tags&quot;</div><div class="line">---</div></pre></td></tr></table></figure>
-<p>这样采用的就是Hexo默认的<a href="http://ilyue.com/tags/" title="本地标签">标签</a>样式。还有一个是常见的是<a href="http://ilyue.com/categories/" title="本地分类">分类</a> - <code>type: categories</code></p>
+<p>这样采用的就是Hexo默认的<a href="http://liuyue.club/tags/" title="本地标签">标签</a>样式。还有一个是常见的是<a href="http://liuyue.club/categories/" title="本地分类">分类</a> - <code>type: categories</code></p>
 <p>使用<code>hexo new page</code>生成page之后，需要在模板配置文件<code>blog/themes/next/_config.yml</code>中进行配置，将该page加入网站菜单中；</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">menu:</div><div class="line">  home: /</div><div class="line">  categories: /categories</div><div class="line">  tags: /tags</div><div class="line">  archives: /archives</div><div class="line">  about: /about</div><div class="line">  books: /books</div></pre></td></tr></table></figure>
 <p>pages的显示默认是在导航栏中显示，小图标可以根据<code>menu_icons</code>进行修改，小图标采用的是FontAwsome，可以在这里<a href="http://fontawesome.io/icons/" title="menu小图标" target="_blank" rel="external">FontAwsome</a>找到你想要的小图标；</p>
@@ -513,7 +513,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/09/01/use_hexo_build_blog/"
-           data-title="使用Hexo&Github Pages搭建自己的Blog" data-url="ilyue.com/2016/09/01/use_hexo_build_blog/">
+           data-title="使用Hexo&Github Pages搭建自己的Blog" data-url="liuyue.club/2016/09/01/use_hexo_build_blog/">
       </div>
     
   </div>

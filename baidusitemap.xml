@@ -4,8 +4,8 @@
 
     
   <url>
-    <loc>ilyue.com/2016/09/01/use_hexo_build_blog/</loc>
-    <lastmod>2016-09-01T17:45:15.000Z</lastmod>
+    <loc>liuyue.club/2016/09/01/use_hexo_build_blog/</loc>
+    <lastmod>2016-11-23T06:11:04.000Z</lastmod>
     <data>
         <display>
         <title>使用Hexo&Github Pages搭建自己的Blog</title>
@@ -18,7 +18,7 @@
          
            
              
-              <breadCrumb title="blog" url="ilyue.com/categories/blog/"/>
+              <breadCrumb title="blog" url="liuyue.club/categories/blog/"/>
           
         </display>
     </data>
@@ -27,7 +27,7 @@
     
     
   <url>
-    <loc>ilyue.com/2016/08/31/linux-crontab/</loc>
+    <loc>liuyue.club/2016/08/31/linux-crontab/</loc>
     <lastmod>2016-08-31T09:05:33.000Z</lastmod>
     <data>
         <display>
@@ -41,7 +41,7 @@
          
            
              
-              <breadCrumb title="Linux" url="ilyue.com/categories/Linux/"/>
+              <breadCrumb title="Linux" url="liuyue.club/categories/Linux/"/>
           
         </display>
     </data>
