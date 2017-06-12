@@ -2,44 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>liuyue.club/2016/09/01/use_hexo_build_blog/</loc>
+    <loc>liuyue.club/2016/09/01/use-hexo-build-blog/</loc>
     
-    <lastmod>2016-11-23T06:11:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>liuyue.club/books/index.html</loc>
-    
-    <lastmod>2016-09-01T03:50:11.000Z</lastmod>
+    <lastmod>2017-06-12T10:54:36.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>liuyue.club/2016/08/31/linux-crontab/</loc>
     
-    <lastmod>2016-08-31T09:05:33.000Z</lastmod>
+    <lastmod>2017-06-12T10:52:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>liuyue.club/2017/02/06/flask-permission-system/</loc>
+    
+    <lastmod>2017-06-12T10:51:15.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>liuyue.club/about/index.html</loc>
     
-    <lastmod>2016-08-31T07:54:20.000Z</lastmod>
+    <lastmod>2017-01-10T03:23:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>liuyue.club/books/index.html</loc>
+    
+    <lastmod>2017-01-10T03:23:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>liuyue.club/categories/index.html</loc>
     
-    <lastmod>2016-08-31T07:53:47.000Z</lastmod>
+    <lastmod>2017-01-10T03:23:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>liuyue.club/tags/index.html</loc>
     
-    <lastmod>2016-08-31T07:52:54.000Z</lastmod>
+    <lastmod>2017-01-10T03:23:20.000Z</lastmod>
     
   </url>
   
